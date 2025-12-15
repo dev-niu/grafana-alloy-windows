@@ -43,7 +43,7 @@
         - `Prometheus Username`: 您的 Prometheus 使用者名稱
         - `Prometheus Password`: 您的 Prometheus 密碼 (輸入時會隱藏，右鍵貼上後按 Enter)
 
-    ```powershell
+```powershell
     PS C:\Users\Administrator\Documents\Test\Monitor> .\set_alloy_config_to_windows_server.bat
     Select Language / 選擇語言:
     1. English
@@ -98,7 +98,7 @@
 
 
     [資訊] 驗證與部署完成
-    ```
+```
 
 ---
 **注意**: 若 IIS Log 目錄不同，請手動修改設定檔或確認路徑。

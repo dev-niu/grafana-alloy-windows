@@ -43,7 +43,7 @@ We provide an automated script `set_alloy_config_to_windows_server.bat` to help 
         - `Prometheus Username`: Your Prometheus username
         - `Prometheus Password`: Your Prometheus password (Input will be hidden, right-click to paste then press Enter)
 
-    ```powershell
+```powershell
     PS C:\Users\Administrator\Documents\Test\Monitor> .\set_alloy_config_to_windows_server.bat
     Select Language / 選擇語言:
     1. English
@@ -100,7 +100,7 @@ We provide an automated script `set_alloy_config_to_windows_server.bat` to help 
     [INFO] Verification and Deployment complete
     Press any key to continue . . .
     PS C:\Users\Administrator\Documents\Test\Monitor>
-    ```
+```
 
 ---
 **Note**: If the IIS Log directory is different, please manually modify the configuration file or verify the path.
