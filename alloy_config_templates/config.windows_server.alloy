@@ -5,8 +5,29 @@
 
 // 1. 定義來源：Windows Exporter
 prometheus.exporter.windows "host" {
-  // 在 enabled_collectors 中加入了 "iis"
-  enabled_collectors = ["cpu", "cs", "logical_disk", "net", "os", "service", "system", "textfile", "time", "diskdrive", "iis"]
+  enabled_collectors = [
+    "cache",
+    "cpu",
+    "cpu_info",
+    "cs",
+    "diskdrive",
+    "gpu",
+    "iis",            // Web Server
+    "logical_disk",
+    "memory",
+    "mssql",          // Database
+    "net",
+    "os",
+    "physical_disk",
+    "process",
+    "scheduled_task",
+    "service",
+    "system",
+    "tcp",
+    "textfile",
+    "time",
+    "udp",
+  ]
 }
 
 // 2. 定義接收與轉換：Scrape
