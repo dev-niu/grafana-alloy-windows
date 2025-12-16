@@ -1,2 +1,6 @@
-# .gitattributes 檔案內容:
-*.ps1 text eol=crlf encoding=utf-8
+# 強制所有文字檔案在檢出 (checkout) 時使用 CRLF
+* text=auto eol=crlf
+
+# 針對 PowerShell 腳本強制執行 CRLF 與 UTF-8 編碼
+*.ps1 text eol=crlf working-tree-encoding=UTF-8
+*.psm1 text eol=crlf working-tree-encoding=UTF-8
