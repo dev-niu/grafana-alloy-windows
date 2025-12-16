@@ -15,15 +15,15 @@
 
 ## 2. 執行設定腳本 (Run Configuration Script)
 
-我們提供了一個自動化腳本 `set_alloy_config_to_windows_server.bat` 來協助產生設定檔並驗證環境。
+我們提供了一個自動化腳本 `set_alloy_config_to_windows_server.ps1` 來協助產生設定檔並驗證環境。
 
 ### 執行步驟
 
 1.  **以管理員身分執行 (Run as Administrator)**:
-    - **方法 A (GUI)**: 右鍵點擊 `set_alloy_config_to_windows_server.bat`，選擇「以系統管理員身分執行」。
+    - **方法 A (GUI)**: 右鍵點擊 `set_alloy_config_to_windows_server.ps1`，選擇「以系統管理員身分執行」。
     - **方法 B (PowerShell)**: 開啟 PowerShell (以管理員身分)，切換到腳本目錄並執行：
       ```powershell
-      .\set_alloy_config_to_windows_server.bat
+      .\set_alloy_config_to_windows_server.ps1
       ```
 
 2.  **選擇語言 (Select Language)**:
@@ -44,7 +44,7 @@
         - `Prometheus Password`: 您的 Prometheus 密碼 (輸入時會隱藏，右鍵貼上後按 Enter)
 
 ```powershell
-    PS C:\Users\Administrator\Documents\Test\Monitor> .\set_alloy_config_to_windows_server.bat
+    PS C:\Users\Administrator\Documents\Test\Monitor> .\set_alloy_config_to_windows_server.ps1
     Select Language / 選擇語言:
     1. English
     2. Traditional Chinese (繁體中文)

@@ -15,15 +15,15 @@ This document explains how to install Grafana Alloy on Windows Server and apply 
 
 ## 2. Run Configuration Script
 
-We provide an automated script `set_alloy_config_to_windows_server.bat` to help generate the configuration file and verify the environment.
+We provide an automated script `set_alloy_config_to_windows_server.ps1` to help generate the configuration file and verify the environment.
 
 ### Execution Steps
 
 1.  **Run as Administrator**:
-    - **Method A (GUI)**: Right-click `set_alloy_config_to_windows_server.bat` and select "Run as administrator".
+    - **Method A (GUI)**: Right-click `set_alloy_config_to_windows_server.ps1` and select "Run as administrator".
     - **Method B (PowerShell)**: Open PowerShell (as Administrator), switch to the script directory, and run:
       ```powershell
-      .\set_alloy_config_to_windows_server.bat
+      .\set_alloy_config_to_windows_server.ps1
       ```
 
 2.  **Select Language**:
@@ -44,7 +44,7 @@ We provide an automated script `set_alloy_config_to_windows_server.bat` to help 
         - `Prometheus Password`: Your Prometheus password (Input will be hidden, right-click to paste then press Enter)
 
 ```powershell
-    PS C:\Users\Administrator\Documents\Test\Monitor> .\set_alloy_config_to_windows_server.bat
+    PS C:\Users\Administrator\Documents\Test\Monitor> .\set_alloy_config_to_windows_server.ps1
     Select Language / 選擇語言:
     1. English
     2. Traditional Chinese (繁體中文)
